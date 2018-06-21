@@ -1,0 +1,26 @@
+<h1>Plugins</h1>
+
+<ul>
+  <li>
+    <button (click)="createView('app-page1')">page 1</button>
+  </li>
+  <li>
+    <button (click)="createView('app-page2')">page 2</button>
+  </li>
+</ul>
+
+<div #content></div>
+
+<h1>Routes</h1>
+
+<ul>
+  <li><a routerLink="/">Home</a></li>
+
+  <li *ngFor="let link of links">
+    <a [routerLink]="link.path">
+      {{ link.text }}
+    </a>
+  </li>
+</ul>
+
+<router-outlet></router-outlet>
