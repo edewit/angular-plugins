@@ -12,12 +12,6 @@
       "plugins-example": "/modules/plugins-example/bundle.js"
     }
   },
-  "sidebar": {
-    "components": [
-      "app-page2",
-      "app-page1"
-    ]
-  },
   "plugins": {
     "modules": {
       "plugins-core": "/modules/plugins-core/bundle.js" ,

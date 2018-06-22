@@ -53,6 +53,7 @@ export class AppComponent implements AfterViewInit {
 
     this.loadExternalRoutes(config);
 
+    //TODO get these from the plugins.config
     const core = await SystemJS.import('plugins-core');
     const pluginExample = await SystemJS.import('plugins-example');
     console.log(core);
