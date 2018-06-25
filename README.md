@@ -1,6 +1,7 @@
 This project consists of 3 modules:
 
 * plugins-core: Plugin Decorator and Manager
+    external plugins need to reside in the “modules” folder of the application
 * plugins-example: 2 example plugins
 * plugins: Main app that uses plugins from plugins-example (see app.component.ts)
 
@@ -19,3 +20,9 @@ A plugin can be a declared by adding a decorator like so:
     }
 ```
 
+Running this:
+
+```bash
+./run.sh
+#open browser http://localhost:4200/
+```
